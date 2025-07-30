@@ -3,7 +3,7 @@ const quoteButton = document.getElementById("Random_Quote");
 
 async function getQuotes() {
   const response = await fetch(
-    "https://week08-assignment-monorepo-server.onrender.com"
+    "https://week08-assignment-monorepo-server.onrender.com/quotes"
   );
 }
 quoteButton.addEventListener("click", getQuotes);
