@@ -66,6 +66,8 @@ NPM packages used: Vite, Express and CORS
 
 ## Instructions on how to run your app:
 
+Please visit https://week08-assignment-monorepo.onrender.com and click on the Get a new quote button to view the quotes pulled from the server.
+
 ## Lighthouse report: N.A.
 
 ## Reflections:
@@ -74,37 +76,33 @@ Please mention the requirements you met and which goals you achieved for this as
 
 ### 🎯 What requirements did you achieve?
 
--
--
+Met all the basic requirements and also a few stretch goals.
 
 ### 🎯 Were there any requirements or goals that you were not quite able to achieve?
 
--
--
+If I'm being critical, I would say the planning went for a toss. I also did not acheive the stretch goal of having a feature so that the user can interact with the app in various other ways.
 
 ### 🎯 If so, could you please tell us what was it that you found difficult about these tasks?
 
--
--
+Did not spend more time on it as I'm already behind.
 
 ### What went really well and what could have gone better?
 
--
--
+I believe I have achieved all the requirements and also a couple of stretch goals. The app looks okay and invites the user to click and view the 50 quotes that are available.
 
 ### Detailing useful external sources that helped you complete the assignment (e.g Youtube tutorials):
 
--
--
+For the styling I used https://cssgradient.io/ for the gradient background and also got the code for the button that I have on there from the site. I also used ChatGPT to tweak and fine tune the look I was aiming for.
 
 ### Describing errors or bugs you encountered while completing your assignment:
 
--
--
+let quotesArray = [];
+let currentIndex = 0;
+
+I had initially assigned them as const variables and it didn't work. Had to change them to let as they were global and only had a value assigned once the function ran. And each time the button was clicked, the variable changed, therefore the const didn't work. Figured this out with the help of ChatGPT.
 
 ### References:
 
-(e.g Third-party APIs, CSS resets, icons, images... )
-
--
--
+Background and button: https://cssgradient.io/
+Quotes: https://zenquotes.io/api/quotes/random
+CSS fine-tuning: used Open AI's Chat GPT
