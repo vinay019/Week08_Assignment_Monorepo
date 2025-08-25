@@ -104,5 +104,7 @@ I had initially assigned them as const variables and it didn't work. Had to chan
 ### References:
 
 Background and button: https://cssgradient.io/
+
 Quotes: https://zenquotes.io/api/quotes/random
+
 CSS fine-tuning: used Open AI's Chat GPT
