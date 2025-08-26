@@ -66,7 +66,7 @@ NPM packages used: Vite, Express and CORS
 
 ## Instructions on how to run your app:
 
-Please visit https://week08-assignment-monorepo.onrender.com and click on the Get a new quote button to view the quotes pulled from the server.
+Please visit https://week08-assignment-monorepo-server.onrender.com first so the server side is woken up. After that, please visit https://week08-assignment-monorepo.onrender.com and click on the Get a new quote button to view the quotes pulled from the server.
 
 ## Lighthouse report: N.A.
 
